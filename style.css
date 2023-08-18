@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --cinza: #535971;
+    --roza: #FF5374;
+    --body: #EFEFEF;
+    --border: #E6E6F0;
+    --input: #FAFAFC;
+    --branco: #FFFFFF;
+    --label: #4E4958;
+    --span: #C1BCCC;
+
+}
+
+body {
+    height: 130vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 140px 345px;
+    background: var(--body);
+    justify-content: center;
+
+
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    background: var(--cinza);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+
+}
+
+h1 {
+    font-family: 'Staatliches', 'sans-serif';
+    color: var(--branco);
+    font-size: 48px;
+    margin-bottom: 18px;
+
+}
+
+body p {
+    font-size: 20px;
+    color: var(--branco);
+    margin-bottom: 42px;
+}
+body input {
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--input);
+    margin-top: 15px;
+    padding: 15px 15px;
+   
+}
+.page {
+    
+    width: 750px;
+    color: var(--branco);
+
+}
+
+fieldset {
+   margin: 0 64px;
+   margin-top: 64px;
+   
+    border: none;
+    
+}
+.div-fieldset{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+#second{
+    margin-top: 30px;
+}
+fieldset legend {
+    color: var(--cinza);
+    font-family: 'Staatliches';
+    font-size: 24px;
+    line-height: 34px;
+    
+    
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    gap:  22px;
+    width: 622px;
+    border-top: 1px solid var(--border);
+    padding-top: 36px;
+}
+
+form {
+    background: var(--branco);
+    border-radius: 20px 20px 0 0;
+    border: 1px solid var(--branco);
+}
+
+label {
+
+    color: var(--label);
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+}
+span{
+    color: var(--span);
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 9px;
+}
+
+
+
+.name .n input {
+    width: 300px;
+    height: 56px;
+
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.email input{
+    width: 622px;
+    height: 56px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    
+}
+.password input{
+    width: 622px;
+    height: 56px;
+}
+.mentor{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border);
+    padding-top: 32px;
+}
+.mentor input{
+    width: 622px;
+    height: 56px;
+}
+.div-fieldset2 legend{
+    margin-bottom: 8px;
+}
+.schedules{
+    margin-bottom: 62px;
+}
+.schedules legend{
+    margin-bottom: 8px;
+}
+.schedules label{
+    font-family: 'Poppins';
+}
+.div-schedules{
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+}
+.div-schedules legend{
+    font-size: 24px;
+}
+.first_mentoria{
+
+    display: flex;
+}
+.first_mentoria1{
+    display: flex;
+    flex-direction: column;
+    margin-right:32px ;
+}
+.first_mentoria0{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.first_mentoria1 input{
+    width: 300px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--input);
+    margin: 8px auto;
+   
+}
+.first_mentoria0 input{
+    height: 56px;
+    width: 140px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--input);
+    margin: 8px auto;
+  
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 750px;
+    height: 160px;
+    background: var(--cinza);
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    
+}
+footer .button{
+    font-family: 'Staatliches';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: var(--roza);
+    color: var(--branco);
+    border: none;
+    width: 608px;
+    height: 56px;
+    
+}
+footer .button:hover{
+    cursor: pointer;
+    background: #8b293d;
+    font-weight: bold
+    
+
+}
